@@ -26,4 +26,11 @@ let state;
 
 // object 
 
-console.log(typeof age);
+//console.log(typeof age);
+
+
+let nameOne = "Bilal"
+let secondname = nameOne
+
+console.log(secondname);
+
