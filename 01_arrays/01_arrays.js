@@ -10,7 +10,7 @@ const myArr2 = new Array (0, 1, 2, 3, 4, 5)
 
 // myArr.push(6)    // Value add karta hai end py
 // myArr.push(7)    
-// // console.log(myArr);
+console.log(myArr);
 
 // myArr.pop()     // Value remove karta hai end wali 
 // console.log(myArr);
