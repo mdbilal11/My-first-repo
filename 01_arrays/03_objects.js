@@ -25,6 +25,13 @@ const JsUser1  = {
 // console.log(JsUser1.IsLoggedIn);
 
 
-// 2nd and best method to Access Values
+// 2nd method to Access Values
 
-console.log(JsUser1["name", "age", "Location"])
+// console.log(JsUser1["name"]),
+
+
+JsUser1.name = "bilal@google.com"
+// Object.freeze(JsUser1)
+JsUser1.age = 17
+console.log(JsUser1);
+
