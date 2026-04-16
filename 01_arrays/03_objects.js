@@ -18,11 +18,11 @@ const JsUser1  = {
 
 // One Method to access the values
 
-console.log(JsUser1.name);
-console.log(JsUser1.age);
-console.log(JsUser1.Location);
-console.log(JsUser1.LastLoginDays);
-console.log(JsUser1.IsLoggedIn);
+// console.log(JsUser1.name);
+// console.log(JsUser1.age);
+// console.log(JsUser1.Location);
+// console.log(JsUser1.LastLoginDays);
+// console.log(JsUser1.IsLoggedIn);
 
 
 // 2nd and best method to Access Values
