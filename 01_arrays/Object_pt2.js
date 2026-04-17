@@ -52,11 +52,42 @@ const users = [
 users [1].email
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  // This is very important and interesting.
-console.log(Object.values(tinderUser));  
-console.log(Object.entries(tinderUser));  // Har key and value ko ARRAY ma bana deta hai, Very less useable syntax. 
+// console.log(Object.keys(tinderUser));  // This is very important and interesting.
+// console.log(Object.values(tinderUser));  
+// console.log(Object.entries(tinderUser));  // Har key and value ko ARRAY ma bana deta hai, Very less useable syntax. 
  
 
 // Value ko check or pochnky ka tareeka
 
-console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('name'));
+
+
+// Object De-Structure Lecture Video # 18
+
+const course = {
+    coursename: "Javascript",
+    Price: "$150",
+    Instructor: "Bilal"
+
+}
+
+// course.Instructor
+
+const {Instructor: inst} = course
+
+console.log(inst);
+
+
+// JSON TALK 
+
+// {
+//     "name": "Bilal",
+//     "course": "JS",
+//     "Price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
