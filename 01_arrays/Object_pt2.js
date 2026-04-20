@@ -18,7 +18,7 @@ const newApp = {
     }
 }
 
-// console.log(newApp.fullname.username.lastname);
+// console.log(newApp.fullname.username.lastname);  // Dot Notation
 
 const obj1 = {1: "a", 2:"b"}
 const obj2 = {3: "a", 4:"b"}
