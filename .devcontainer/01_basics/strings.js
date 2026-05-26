@@ -1,9 +1,10 @@
 const name = "Bilal"
-const repoCount = 40
+const repoCount = 3
 
 //console.log(name + repoCount + " Value"); This is old and normal way.
 
-// console.log(`Hello my name is ${name} and my repo count is ${repoCount} `); This way is called
+console.log(`Hello my name is ${name} and my repo count is ${repoCount} in 27 May 2026.`); 
+// This way is called
 // string interpulation.
 
 const gameName = new String (`Bilal-hc`)
