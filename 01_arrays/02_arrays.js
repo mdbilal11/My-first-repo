@@ -8,9 +8,6 @@ const dc_heros = ["batman", "superman", "flash", "Bilal"]
 // console.log(dc_heros[4][0]);
 // console.log(dc_heros);
 
-marvel_heros.concat(dc_heros)
-console.log(marvel_heros);
-
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
@@ -18,7 +15,7 @@ console.log(marvel_heros);
 
 const again_array = [1, 2, 3, [6, 7,], 8, 9, [2, 3, 4, [5, 6]]]
 const new_again_array = again_array.flat(Infinity)
-// console.log(new_again_array);
+console.log(new_again_array);
 
 // console.log(Array.isArray("Bilal"))
 // console.log(Array.from("Bilal"))
