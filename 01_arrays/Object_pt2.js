@@ -77,6 +77,8 @@ const { Instructor: inst } = course;
 
 // JSON TALK 
 
+// JSON stands for = Javascript Object Notation                              
+
 // {
 //     "name": "Bilal",
 //     "course": "JS",
