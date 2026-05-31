@@ -30,8 +30,9 @@ const JsUser1  = {
 // console.log(JsUser1["name"]),
 
 
-JsUser1.name = "bilal@google.com"
-// Object.freeze(JsUser1)
-JsUser1.age = 17
-console.log(JsUser1);
+// JsUser1.name = "Muhammad Bilal"
+Object.freeze(JsUser1)
+// JsUser1.name = "Ali"
+// JsUser1.age = 17
+// console.log(JsUser1);
 
