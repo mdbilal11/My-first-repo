@@ -1,4 +1,4 @@
-const tinderUser = new Object () // Singleton Object 
+const tinderUser = new Object() // Singleton Object 
 
 // const JazzCashUser = {} // Non-Singleton Object
 
@@ -6,28 +6,28 @@ tinderUser.id = "123abc"
 tinderUser.name = "Rammy"
 tinderUser.IsLoggedIn = false
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 const newApp = {
     email: "someone@gmail.com",
     fullname: {
-        username:{
+        username: {
             firstname: "Muhammad",
             lastname: "Bilal"
         }
     }
 }
 
-// console.log(newApp.fullname.username.lastname);  // Dot Notation
+// console.log(newApp.fullname.username.lastname);  // Dot Notation 
 
-const obj1 = {1: "a", 2:"b"}
-const obj2 = {3: "a", 4:"b"}
+const obj1 = { 1: "a", 2: "b" }
+const obj2 = { 3: "a", 4: "b" }
 
 // const obj3 = {obj1, obj2}
 
 // const obj3 = Object.assign({}, obj1, obj2)
 
-const obj3 = {...obj1, ...obj2}  // Spread property, 90% used this syntax. 
+const obj3 = { ...obj1, ...obj2 }  // Spread property, 90% used this syntax. 
 
 // console.log(obj3);
 
@@ -49,13 +49,12 @@ const users = [
     },
 ]
 
-users [1].email
+users[1].email
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));  // This is very important and interesting.
 // console.log(Object.values(tinderUser));  
-// console.log(Object.entries(tinderUser));  // Har key and value ko ARRAY ma bana deta hai, Very less useable syntax. 
- 
+// console.log(Object.entries(tinderUser));  // Har key and value ko ARRAY ma bana deta hai, Very less usable syntax. 
 
 // Value ko check or pochnky ka tareeka
 
@@ -73,10 +72,9 @@ const course = {
 
 // course.Instructor
 
-const {Instructor: inst} = course
+const { Instructor: inst } = course;
 
-console.log(inst);
-
+// console.log(inst);
 
 // JSON TALK 
 
