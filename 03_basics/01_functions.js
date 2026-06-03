@@ -31,4 +31,29 @@ function LoginUserMessage (username){
 }
 
 // console.log(LoginUserMessage ("Bilal"));
-console.log(LoginUserMessage ());
+// console.log(LoginUserMessage ());
+
+// Video Lecture No. 20 Start here
+
+function calculateCartPrice (val1, val2, ...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user = {
+    username: "Bilal",
+    price: 199
+}
+
+// function handleObject(anyobject){
+//     // console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`)
+// }
+
+// handleObject(user)
+
+const student = {
+    name: "Ayesha",
+    marks: [80, 85, 90]
+
+};
+
